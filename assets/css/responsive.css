@@ -1,0 +1,71 @@
+@media (max-width: 740px) {
+    #nav>li {
+        display: block;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav>li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: black;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 41px;
+    }
+
+    #header .search-button {
+        display: none;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #header .menu-btn {
+        display: block;
+    }
+
+    #content .member_item {
+        width: 100%;
+        margin-top: 30px;
+
+    }
+
+    #content .member-img {
+        width: 60%;
+    }
+
+    .s_col_full {
+        width: 100%;
+    }
+
+    .contract-info {
+        margin-bottom: 16px;
+    }
+
+    .s_m16 {
+        margin-bottom: 16px;
+    }
+
+    .btn {
+        width: 100%;
+    }
+}
+
+@media (max-width:1024px) {
+    .social-icon {
+        font-size: 24px;
+    }
+
+    .social-icon a {
+        margin: 0 16px;
+    }
+}

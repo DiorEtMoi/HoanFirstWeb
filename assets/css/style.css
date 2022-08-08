@@ -80,6 +80,7 @@ html {
     z-index: 1;
 }
 
+
 #nav {
     display: inline-block;
 }
@@ -132,6 +133,15 @@ html {
     display: block;
 }
 
+/* menu */
+#header .menu-btn {
+    position: absolute;
+    color: #fff;
+    padding: 0 24px;
+    top: 0;
+    right: 0;
+    display: none;
+}
 
 /* Search */
 #header .search-button {
@@ -140,10 +150,12 @@ html {
     padding: 0 24px;
 }
 
+#header .menu-btn,
 #header .search-icon {
     line-height: 46px;
 }
 
+#header .menu-btn:hover,
 #header .search-button:hover {
     background-color: #f44336;
 }
@@ -177,9 +189,12 @@ html {
 
 #content .content-section {
     width: 800px;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
     padding: 64px 0 112px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 #content .section-sub-heading {
